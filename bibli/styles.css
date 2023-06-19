@@ -1,0 +1,219 @@
+/*Gerais*/
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color:#f8f5eeee;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+}
+p,li{
+    color:black;
+    font-size: 17px;
+    font-family: serif;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color:#2ea640f4;
+
+}
+#nav-container{
+    padding-top:0;
+    padding-bottom:0;  
+}
+#logo{
+    width: 75px;
+
+}
+
+.navbar-brand:hover{
+    padding: 0;
+    color: floralwhite;
+}
+
+#navbar-brand:hover{
+    color: floralwhite;
+}
+
+#navbar-links a{
+    color:floralwhite;
+    padding: 30px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem.8rem;
+}
+
+/*Sobre o bibliotech*/
+
+#about-area{
+    background-color: rgb(255, 255, 255);
+}
+.main-title{
+    color: #2ea640f4;
+    margin: 50px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #2ea640f4;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+} 
+
+.about-title{
+    font-size: 17px;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list i{
+    color:#2ea640f4;
+    margin-right: 15px;
+}
+
+.btn{
+    padding: 10px 8px;
+    width: 150px;
+    color: #fff;
+    background: #2ea640f4;
+    border:1px solid black;
+    border-radius: 10px;
+    text-align:center;
+    cursor: pointer;
+    position: relative ;
+}
+
+.btn:hover{
+    background:#2ea640f4;
+    transition: 1s;
+}
+
+
+/*Serviços*/
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-box i, .service-box h4{
+    transition: .5s;
+}
+
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:#2ea640f4;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+    color:rgb(94, 12, 114)
+}
+
+/*dados*/
+
+.circle-box div{
+   padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+/* cursos*/
+
+.card-body{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.card{
+    margin-bottom: 10%;
+}
+
+
+/*footer*/
+
+#contact-area{
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact-box{
+    padding-top: -5px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px   ;
+}
+
+.contact-box i{
+    color: #2ea640f4;
+    border: solid 2px purple;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size: 16px;
+}
+
+.contact-title{
+    font-weight: bold;
+    color:#2ea640f4;
+}
+/*copy*/
+
+#copy-area{
+    background-color: #2ea640f4;
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-size: rgb(169, 176, 169);
+    color:#fff;
+}

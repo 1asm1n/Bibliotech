@@ -1,0 +1,113 @@
+/*Barra de navegação*/
+header, .navbar{
+    background-color:#006400;
+
+}
+#nav-container{
+    padding-top:0;
+    padding-bottom:0;  
+}
+#logo{
+    width: 75px;
+
+}
+
+.navbar-brand:hover{
+    padding: 0;
+    color: floralwhite;
+}
+
+#navbar-brand:hover{
+    color: floralwhite;
+}
+
+#navbar-links a{
+    color:floralwhite;
+    padding: 30px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem.8rem;
+}
+
+
+.main-title{
+    color: rgb(255, 1, 1);
+    margin: 50px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: steamer;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #006400;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+} 
+
+.about-title{
+    font-size: 22px;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3{
+    position:relative;
+  top:60px;
+  left:50px;
+  bottom: 45px;
+
+}
+
+body{
+    background-color: rgb(248, 242, 222);
+}
+
+.container{
+
+    position:relative;
+    top: 50px;
+    color: black;
+    font-style: bold;
+}
+
+.input{
+    
+    padding: 10px 8px;
+    width: 85px;
+    color: #fff;
+    background: #B22222;
+    border:7px solid black;
+    border-radius: 5px;
+    user-select:none;
+    cursor:pointer;
+}
+
+
+/*copy*/
+
+#copy-area{
+    background-color: rgb(63, 100, 63);
+}
+
+#copy-area .container{
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 1000px;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-size: rgb(169, 176, 169);
+    color:#fff;
+}
